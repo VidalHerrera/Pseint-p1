@@ -1,6 +1,13 @@
 Algoritmo sin_titulo
 	
-	definir nMaterias, pMateria, nCreditos, resultado  Como Entero
+	definir nMaterias, pMateria, nCreditos, resultado, i, rCreditos  Como Entero
+	
+	nMaterias = 0
+	pMateria = 0
+	nCreditos = 0
+	rCreditos = 0
+	resultado = 0
+	i = 0
 
 	Escribir "cuantas materias vas a registrar"
 	Leer nMaterias
